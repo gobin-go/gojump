@@ -263,7 +263,7 @@ class Cactus {
 
 
 class Particle {
-  constructor(x, y, color = 'rgba(120,120,120,', size = 2) {
+  constructor(x, y, color = 'rgba(240,120,120,', size = 2) {
     this.x = x;
     this.y = y;
     this.radius = Math.random() * size + 1;
@@ -408,7 +408,7 @@ if ((displayedScore % 2000) < 1000 && displayedScore >= 2000) {
       blinking = true;
       blinkTimer = 30;
       for (let i = 0; i < 5; i++) {
-        particles.push(new Particle(dino.x + dino.width / 2, dino.y + dino.height / 2, 'rgba(255,200,50,'));
+        particles.push(new Particle(dino.x + dino.width / 2, dino.y + dino.height / 2, 'rgba(100,200,50,'));
       }
       if (lives <= 0) {
         gameOver = true;
